@@ -41,11 +41,18 @@ After that, type `git commit -m "<commit message>", which will stage your change
 Finally, type `git push -u -f origin main`, this will push the files to github
 
 
-### Fetching
+### Fetching vs. Pulling
 
-To fetch the files from github, type `git fetch remote origin`, this will update your local directory with all the files from the repository
+To fetch the files from github, type `git fetch remote origin`, this will download any files that are not present to your local directory
 
 If that does not fetch all the files, try typing `git fetch <link to github repository>`
+
+`git fetch` will copy across any files that are not present in your local directory from github, but it will NOT update any changes to files
+
+
+To pull the files from github, type `git pull`, this will update the files in your local directory
+
+`git pull` will copy across any files that are not present in your local directory from github, and it WILL update any changes to files
 
 
 ### Cloning

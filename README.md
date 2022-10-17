@@ -36,7 +36,7 @@ Once you have made the changes you want to your local files, type `git add .` in
 
 Then, type `git status`, which will show you all your applied changes in green text
 
-After that, type `git commit -m "<commit message>", which will stage your changes and get them ready to push
+After that, type `git commit -m "<commit message>"`, which will stage your changes and get them ready to push
 
 Finally, type `git push -u -f origin main`, this will push the files to github
 

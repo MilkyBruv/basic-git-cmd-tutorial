@@ -45,11 +45,11 @@ Finally, type `git push -u -f origin main`, this will push the files to github
 
 To fetch the files from github, type `git fetch remote origin`, this will update your local directory with all the files from the repository
 
-If that does not fetch all the files, try typing `git fetch <repository url>`
+If that does not fetch all the files, try typing `git fetch <link to github repository>`
 
 
 ### Cloning
 
-To clone a repository, type `git clone <link to repository>`, this will download all the files from the repository
+To clone a repository, type `git clone <link to github repository>`, this will download all the files from the repository
 
 Note that this will not let you edit the files on the repository

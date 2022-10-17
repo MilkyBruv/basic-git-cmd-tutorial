@@ -6,6 +6,8 @@ Download the git installer for your machine from [https://git-scm.com/downloads]
 
 Then run the installer and go through the setup wizard
 
+When you get to the part to override the default branch name, select `Override the default branch name for new repositories`, and set it to `main`
+
 To check if git is installed, go to your terminal and type `git --version`, and if you get no errors proceed forwards to the next section
 
 If you get any errors, uninstall git (if possible) and go back through the steps

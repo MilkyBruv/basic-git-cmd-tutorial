@@ -52,7 +52,7 @@ If that does not fetch all the files, try typing `git fetch <link to github repo
 
 To pull the files from github, type `git pull`, this will update the files in your local directory
 
-`git pull` will copy across any files that are not present in your local directory from github, and it WILL update any changes to files
+`git pull origin main` will copy across any files that are not present in your local directory from github, and it WILL update any changes to files
 
 
 ### Cloning
